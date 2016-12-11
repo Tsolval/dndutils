@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.tsolval.dnd.ApplicationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-12-11T02:55:56" hostname="SlackGamer-Win10" time="0.106">
+  <properties/>
+  <testcase name="testHorde" classname="net.tsolval.dnd.ApplicationTest" time="0.103"/>
+  <testcase name="testTreasure" classname="net.tsolval.dnd.ApplicationTest" time="0.003"/>
+  <system-out><![CDATA[<html>
+  <body>
+    <h2>Generating Treasure for 20 creatures of CR: 1!</h2>
+    <p>[pp:0, gp:88, ep:8, sp:127, cp:78]</p>
+  </body>
+</html>
+<html>
+  <body>
+    <h2>Generating Treasure for 20 creatures of CR: 1!</h2>
+    <p>[pp:1, gp:62, ep:24, sp:23, cp:133]</p>
+  </body>
+</html>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

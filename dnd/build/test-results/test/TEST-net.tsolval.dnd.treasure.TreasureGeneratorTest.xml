@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.tsolval.dnd.treasure.TreasureGeneratorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-12-11T02:56:28" hostname="SlackGamer-Win10" time="0.145">
+  <properties/>
+  <testcase name="testBuild" classname="net.tsolval.dnd.treasure.TreasureGeneratorTest" time="0.091"/>
+  <testcase name="testGetMagicItemC" classname="net.tsolval.dnd.treasure.TreasureGeneratorTest" time="0.021"/>
+  <testcase name="testBuildHoardCR0" classname="net.tsolval.dnd.treasure.TreasureGeneratorTest" time="0.03"/>
+  <testcase name="testBuildHoardCR17" classname="net.tsolval.dnd.treasure.TreasureGeneratorTest" time="0.003"/>
+  <system-out><![CDATA[Potion of Climbing
+Cap of Water Breathing
+Potion of Superior Healing
+Oil of Sharpness
+Arrow of Slaying
+Gauntles of Ogre Power
+Weapon, +2
+Weapon, +3
+Ring of Air Elemental Command
+magic: 53..60=[{dice=1d6, itemMethod=getMagicItemA}]
+value: [[dice:1d6, itemMethod:getMagicItemA]]
+processing: [dice:1d6, itemMethod:getMagicItemA]
+method: getMagicItemA
+rolled: 1d6 (6)
+found Bag of Holding
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[]]
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding]]
+found Potion of Healing
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding]]
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing]]
+found Potion of Healing
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing]]
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing, Potion of Healing]]
+found Potion of Healing
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing, Potion of Healing]]
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing, Potion of Healing, Potion of Healing]]
+found Potion of Healing
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing, Potion of Healing, Potion of Healing]]
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing, Potion of Healing, Potion of Healing, Potion of Healing]]
+found Potion of Healing
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing, Potion of Healing, Potion of Healing, Potion of Healing]]
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing, Potion of Healing, Potion of Healing, Potion of Healing, Potion of Healing]]
+[pp:0, gp:70, ep:0, sp:1200, cp:2200, gems:[count:9, value:50], art:[count:0, value:0], magic:[Bag of Holding, Potion of Healing, Potion of Healing, Potion of Healing, Potion of Healing, Potion of Healing]]
+magic: 60..63=[{dice=1d4, itemMethod=getMagicItemB}]
+value: [[dice:1d4, itemMethod:getMagicItemB]]
+processing: [dice:1d4, itemMethod:getMagicItemB]
+method: getMagicItemB
+rolled: 1d4 (2)
+found Ammunition +1
+[pp:90, gp:2000, ep:0, sp:7000, cp:900, gems:[count:0, value:0], art:[count:6, value:250], magic:[]]
+[pp:90, gp:2000, ep:0, sp:7000, cp:900, gems:[count:0, value:0], art:[count:6, value:250], magic:[Ammunition +1]]
+found Potion of Resistance
+[pp:90, gp:2000, ep:0, sp:7000, cp:900, gems:[count:0, value:0], art:[count:6, value:250], magic:[Ammunition +1]]
+[pp:90, gp:2000, ep:0, sp:7000, cp:900, gems:[count:0, value:0], art:[count:6, value:250], magic:[Ammunition +1, Potion of Resistance]]
+[pp:90, gp:2000, ep:0, sp:7000, cp:900, gems:[count:0, value:0], art:[count:6, value:250], magic:[Ammunition +1, Potion of Resistance]]
+[pp:1900, gp:14000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[]]
+magic: 3..5=[{dice=1d8, itemMethod=getMagicItemC}]
+value: [[dice:1d8, itemMethod:getMagicItemC]]
+processing: [dice:1d8, itemMethod:getMagicItemC]
+method: getMagicItemC
+rolled: 1d8 (7)
+found Horseshoes of Speed
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[]]
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed]]
+found Potion of Stone Giant Strength
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed]]
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength]]
+found Ammunition +2
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength]]
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2]]
+found Chime of Opening
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2]]
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2, Chime of Opening]]
+found Spell Scroll (4th Level)
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2, Chime of Opening]]
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2, Chime of Opening, Spell Scroll (4th Level)]]
+found Quaal's Feather
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2, Chime of Opening, Spell Scroll (4th Level)]]
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2, Chime of Opening, Spell Scroll (4th Level), Quaal's Feather]]
+found Spell Scroll (5th Level)
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2, Chime of Opening, Spell Scroll (4th Level), Quaal's Feather]]
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2, Chime of Opening, Spell Scroll (4th Level), Quaal's Feather, Spell Scroll (5th Level)]]
+[pp:24000, gp:39000, ep:0, sp:0, cp:0, gems:[count:8, value:1000], art:[count:0, value:0], magic:[Horseshoes of Speed, Potion of Stone Giant Strength, Ammunition +2, Chime of Opening, Spell Scroll (4th Level), Quaal's Feather, Spell Scroll (5th Level)]]
+magic: 81..85=[{dice=1d4, itemMethod=getMagicItemI}]
+value: [[dice:1d4, itemMethod:getMagicItemI]]
+processing: [dice:1d4, itemMethod:getMagicItemI]
+method: getMagicItemI
+rolled: 1d4 (4)
+found Instrument of the Bards (Ollamh harp)
+[pp:31000, gp:38000, ep:0, sp:0, cp:0, gems:[count:7, value:1000], art:[count:0, value:0], magic:[]]
+[pp:31000, gp:38000, ep:0, sp:0, cp:0, gems:[count:7, value:1000], art:[count:0, value:0], magic:[Instrument of the Bards (Ollamh harp)]]
+found Holy Avenger
+[pp:31000, gp:38000, ep:0, sp:0, cp:0, gems:[count:7, value:1000], art:[count:0, value:0], magic:[Instrument of the Bards (Ollamh harp)]]
+[pp:31000, gp:38000, ep:0, sp:0, cp:0, gems:[count:7, value:1000], art:[count:0, value:0], magic:[Instrument of the Bards (Ollamh harp), Holy Avenger]]
+found Ioun Stone (mastery)
+[pp:31000, gp:38000, ep:0, sp:0, cp:0, gems:[count:7, value:1000], art:[count:0, value:0], magic:[Instrument of the Bards (Ollamh harp), Holy Avenger]]
+[pp:31000, gp:38000, ep:0, sp:0, cp:0, gems:[count:7, value:1000], art:[count:0, value:0], magic:[Instrument of the Bards (Ollamh harp), Holy Avenger, Ioun Stone (mastery)]]
+found Talisman of Ultimate Evil
+[pp:31000, gp:38000, ep:0, sp:0, cp:0, gems:[count:7, value:1000], art:[count:0, value:0], magic:[Instrument of the Bards (Ollamh harp), Holy Avenger, Ioun Stone (mastery)]]
+[pp:31000, gp:38000, ep:0, sp:0, cp:0, gems:[count:7, value:1000], art:[count:0, value:0], magic:[Instrument of the Bards (Ollamh harp), Holy Avenger, Ioun Stone (mastery), Talisman of Ultimate Evil]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
