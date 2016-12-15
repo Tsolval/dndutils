@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.tsolval.dnd.tools.DiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-12-11T02:55:56" hostname="SlackGamer-Win10" time="0.012">
-  <properties/>
-  <testcase name="testRollIntInt" classname="net.tsolval.dnd.tools.DiceTest" time="0.002"/>
-  <testcase name="testRollString" classname="net.tsolval.dnd.tools.DiceTest" time="0.01"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

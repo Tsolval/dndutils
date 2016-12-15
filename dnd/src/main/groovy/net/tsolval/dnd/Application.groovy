@@ -1,10 +1,12 @@
 package net.tsolval.dnd
 
+import org.springframework.boot.Banner
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.servlet.ModelAndView
 
 import groovy.xml.MarkupBuilder
 import net.tsolval.dnd.treasure.TreasureGenerator
@@ -15,7 +17,7 @@ class Application {
 
 	@RequestMapping("/")
 	def home() {
-		"Hello World!"
+		new ModelAndView("views/home", [bootVersion: Banner.package.implementationVersion, groovyVersion: GroovySystem.version])
 	}
 	
 	@RequestMapping("/loot/{challengeRating}/{numberOfCreatures}")
